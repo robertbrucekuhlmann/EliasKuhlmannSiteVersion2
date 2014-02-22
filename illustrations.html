@@ -1,0 +1,88 @@
+
+<HEAD>
+	<TITLE>Elias Kuhlmann - Links</TITLE>
+	<link rel="stylesheet" href="css/mod.css" type="text/css" />
+	
+	<SCRIPT LANGUAGE="JavaScript">
+	<!--
+	function changeImage(filename, dimensions)
+	{
+		// reset the highlighting on all the illustration links:
+		clearSelectedIllustrationLink()
+		// show the image of the selected illustration:
+		document.getElementById('mainimage').src = filename;
+		// show the dimensions of the selected illustration:
+		document.getElementById('dimensions').innerHTML = dimensions;
+		// highlight the link for the selected illustration:
+		var ref = filename.replace("illustrations/","");
+		document.getElementById(ref).className = "currentIllustration";
+	  
+	}
+	
+	function clearSelectedIllustrationLink()
+	{
+		// get all the links in the illustration list
+		//var linksArr = document.getElementsById("illustrationsList").getElementsByTagName("a");
+		var linksArr = document.getElementsByTagName("h3");
+		for(var i=0; i<linksArr.length; i++){ 
+			linksArr[i].className = "notcurrentIllustration";
+		}
+	}
+
+	-->
+</script>
+	
+</HEAD>
+<body vLink=#707070 link=#FFFFFF bgColor="#000000">
+<center>
+
+<table border='0' width='100%'>
+	<tr>
+		<td width='100%' align='right'>
+			<table border='0' width='100%'>
+				<tr>
+					<td width='95%' align='right'>
+                        <table width='100%'>
+                        	<tr>
+                        		<td align='right' width='100%'>
+									<table border='0' width='100%'>
+										<tr>
+											<td width='50%' align='center'>
+												<p><img name="mainimage" id="mainimage" src="images/blank.jpg" /></p>
+												&nbsp;<br>
+												<p><h4><span name="dimensions" id="dimensions"></span></h4></p>
+											</td>
+											<td width='50%' align='center'>
+											<p>&nbsp;</p><p>&nbsp;</p>
+											<a href='index.html'><h1>illustrations</h1></a>
+							
+												<table border='0'>
+													<tr>
+														<td>
+															<span name='illustrationsList' id='illustrationsList'>
+																<!--this is the illustrations section -->
+															<h3 id="crystals_pillow_01.jpg"><a href="javascript:changeImage('images/illustrations/crystals_pillow_01.jpg','pen and ink')">crystals and pillow</a></h3>
+
+															<h3 id="thisssss_01.jpg"><a href="javascript:changeImage('images/illustrations/thisssss_01.jpg','pen and ink')">thisssss</a></h3>
+															
+															</span>
+														</td>
+													</td>						
+												</table>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>						
+
+					</td>
+					<td width='5%'>
+						&nbsp;
+					</td>		
+			</table>
+		</td>
+	</tr>
+</table>
+</center>
+</body>

@@ -1,0 +1,26 @@
+body {background-color: white;}
+/* is a css "class" this means that every h1 tag inside the large-12 column inside a "row" is white */
+ 
+ .text-off-white {
+ 	color: #f2f3f4;
+ }
+
+
+.row {background-color: #000000;}
+
+.top-banner {
+	margin-top: 58px;
+	margin-bottom: 58px;
+	margin-right: 50px;
+	font-size: 4em;
+	text-align: right; 
+}
+
+.nav-link {
+	margin-bottom: 28px;
+	margin-right: 50px;
+	font-size: 2.5em;
+	text-align: right;
+
+
+}
